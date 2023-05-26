@@ -1,4 +1,4 @@
-/* ADD TO ZERO */
+/* ADD TO ZERO - RUNTIME = O(n^2) */
 
 function addToZero(arr) {
 
@@ -17,7 +17,7 @@ console.log(addToZero([1]))
 console.log(addToZero([1, 2, 3]))
 console.log(addToZero([1, 2, 3, -2]))
 
-/* UNIQUE CHARACTERS */
+/* UNIQUE CHARACTERS RUNTIME = O(n^2) */
 
 function uniqueChar(str) {
 
@@ -56,9 +56,9 @@ console.log(uniqueChar('Moonday'))
 // console.log(isPangram("The quick brown fox jumps over the lazy dog!"))
 // console.log(isPangram("I like cats, but not mice"))
 
-/* LONGEST WORD */
+/* LONGEST WORD RUNTIME = O(n) */
 
-function findLongestWord(list) {
+function findLongestWord(list)  {
 
     let count = 0
 
